@@ -1,0 +1,33 @@
+---
+title       : Slidify
+subtitle    : just a test
+author      : M ML
+job         : Researcher
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Info about my first App
+
+Goal: Offering a quick survey on your motivation toward completing your data science certification
+
+Description: This application lets you answer a few questions related to the Data Science Certification and stores your answers in '.txt' logfiles in 6 seperate '.txt' documents, one for each question. I also tried to add a few elements of design. The Download Data section is not in function, but I am working on it. Finally, you will receive tailored feedbacks for the first two questions, depending on the answer you have chosen.
+
+--- .class #id 
+
+## Limitations
+Main Limitations:
+1. Download Data not working
+2. Logfiles not accessible (even for me) when pushed to shiny server so far.
+3. A lot of work needs to be done to make this app much much better.
+
+Thank you for evaluating my work!
+
+
+
+
+
